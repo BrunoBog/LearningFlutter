@@ -37,7 +37,7 @@ void main() async {
 
 Future<List> getClients() async {
 
-  String url = 'https://jsonplaceholder.typicode.com/users';
+  String url = 'https://knewinsocialclientesinsights.azurewebsites.net/Clientes';
   //"https://knewinsocialclientes20190603103537.azurewebsites.net/"
 
     http.Response response = await http.get(url);
